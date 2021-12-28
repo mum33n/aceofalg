@@ -1,0 +1,2 @@
+$(document).ready((function(){(new WOW).init();var t,e=document.getElementsByClassName("accordion");for(t=0;t<e.length;t++)e[t].addEventListener("click",(function(){this.classList.toggle("active");var t=this.nextElementSibling;t.style.maxHeight?t.style.maxHeight=null:t.style.maxHeight=t.scrollHeight+"px"}));$("a").on("click",(function(t){if(""!==this.hash){t.preventDefault();var e=this.hash;$("html, body").animate({scrollTop:$(e).offset().top},800,(function(){window.location.hash=e}))}}))}));
+//# sourceMappingURL=index.ef16f28b.js.map
